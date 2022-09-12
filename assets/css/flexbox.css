@@ -1,0 +1,75 @@
+.cabecalhoPrincipal .container {
+
+    background-color:chartreuse ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menu__list {
+    display: flex;
+    margin-left: 1;
+    flex-direction: row;
+    align-items: center;
+    padding: 1px;
+    gap: 32px;
+}
+
+.logoNome{
+    display: flex;
+}
+
+.title__div {
+    background-color: beige;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    Top: 120px;
+    Left: 152px;
+    padding: 110px;
+    gap: 208px;
+        
+}
+
+.title__container {
+    background-color: rgb(70, 201, 157);
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.title__bio {
+    background-color: darkgoldenrod;
+    width: 751px;
+    height: 122px;
+}
+
+.title__subsection {
+    background-color: rgb(221, 137, 34);
+    width: 751px;
+    height: 52px;
+}
+
+.title__network{
+    background-color: darkorange;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 467px;
+    height: 24px;
+   
+}
